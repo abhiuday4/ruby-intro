@@ -8,7 +8,17 @@
 # end
 
 # 1. assign the starting index
+tacos = ["carnitas", "carne asada", "pollo", "pesacado"]
 index = 0
+loop do
+  if index == tacos.count
+    break
+end
+
+puts tacos[index]
+  
+index = index + 1
+end
 
 # 2. begin the loop
 loop do
