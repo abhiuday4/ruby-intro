@@ -6,9 +6,17 @@
 # loop do
 #   puts "tacos!"
 # end
+index = 0
+loop do 
+  puts "taco!"
+  if index == 10
+    break
+  end
+  index = index + 1
+end
 
 # 1. assign the starting index
-tacos = ["carnitas", "carne asada", "pollo", "pesacado"]
+tacos = ["carnitas", "carne asada", "pollo", "pesacado", "avocado", "tofu"]
 index = 0
 loop do
   if index == tacos.count
@@ -18,6 +26,11 @@ end
 puts tacos[index]
   
 index = index + 1
+end
+
+for taco in tacos
+# taco = tacos[index]
+puts taco
 end
 
 # 2. begin the loop
@@ -38,7 +51,7 @@ loop do
 end
 
 # Loop through tacos
-tacos = ["carnitas", "carne asada", "pollo"]
+tacos = ["carnitas", "carne asada", "pollo", "pescado", "acocado", "tofu"]
 
 # The old way:
 
